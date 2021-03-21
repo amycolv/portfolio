@@ -1,11 +1,147 @@
 body {
   color: red;
+  background-color: #f1efee;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: bold;
+  color: black;
 }
 
 h1 {
-  font-family: "Playfair Display", serif;
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 36px;
 }
 
 p {
-  font-family: "Domine", serif;
+  font-family: "Roboto", serif;
+  font-size: 30px;
+  color: black;
+}
+
+.border-black {
+  border-color: 2px black;
+}
+
+.box {
+  padding: 40px 40px;
+}
+
+.background-pink {
+  background: linear-gradient(
+    83deg,
+    rgba(255, 255, 255, 1) 20%,
+    rgba(237, 91, 119, 1) 75%
+  );
+}
+
+.background-red {
+  background: linear-gradient(
+    90deg,
+    rgba(245, 26, 4, 1) 0%,
+    rgba(237, 102, 90, 1) 100%
+  );
+}
+
+.background-yellow {
+  background: linear-gradient(
+    90deg,
+    rgba(236, 100, 88, 1) 0%,
+    rgba(244, 168, 35, 1) 30%,
+    rgba(239, 206, 11, 1) 100%
+  );
+}
+
+.background-green {
+  background: linear-gradient(
+    90deg,
+    rgba(237, 102, 90, 1) 0%,
+    rgba(251, 238, 236, 1) 90%
+  );
+}
+
+.background-blue {
+  background: linear-gradient(
+    90deg,
+    rgba(23, 50, 201, 1) 0%,
+    rgba(255, 255, 255, 1) 99%
+  );
+}
+
+.background-spiral {
+  background: radial-gradient(
+    circle,
+    rgba(237, 91, 119, 1) 0%,
+    rgba(255, 255, 255, 1) 42%
+  );
+}
+
+.background-white {
+  background-color: #f8f8f8;
+}
+
+.finger {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 200px;
+}
+
+.background-image {
+  width: 100%;
+}
+
+.marquee {
+  color: red;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+footer {
+  display: block;
+  text-align: center;
+}
+
+footer a {
+  margin: 0 20px;
+  color: #213acb;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #f51c0a;
+}
+
+@media (max-width: 992px) {
+  h1,
+  h2,
+  h3 {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 22px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
 }
