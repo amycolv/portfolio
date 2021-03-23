@@ -1,5 +1,4 @@
 body {
-  color: red;
   background-color: #f1efee;
 }
 
@@ -34,7 +33,7 @@ p {
 }
 
 .box {
-  padding: 40px 40px;
+  padding: 40px 0px;
 }
 
 .background-pink {
@@ -90,6 +89,15 @@ p {
   background-color: #f8f8f8;
 }
 
+.background-about {
+  background: linear-gradient(
+    90deg,
+    rgba(198, 255, 221, 1) 9%,
+    rgba(251, 215, 134, 1) 59%,
+    rgba(247, 121, 125, 1) 100%
+  );
+}
+
 .finger {
   display: block;
   margin-left: auto;
@@ -111,6 +119,7 @@ p {
 footer {
   display: block;
   text-align: center;
+  margin: 30px;
 }
 
 footer a {
@@ -134,14 +143,18 @@ a:hover {
 
 @media (max-width: 768px) {
   h1 {
-    font-size: 22px;
+    font-size: 24px;
   }
 
   h2 {
-    font-size: 18px;
+    font-size: 20px;
   }
 
   h3 {
-    font-size: 16px;
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 18px;
   }
 }
