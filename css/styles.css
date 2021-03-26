@@ -24,8 +24,9 @@ h3 {
 
 p {
   font-family: "Roboto", serif;
-  font-size: 30px;
+  font-size: 24px;
   color: black;
+  margin: 0px;
 }
 
 .border-black {
@@ -33,7 +34,7 @@ p {
 }
 
 .box {
-  padding: 40px 0px;
+  padding: 20px 0px;
 }
 
 .background-pink {
@@ -110,10 +111,8 @@ p {
   width: 100%;
 }
 
-.marquee {
-  color: red;
-  font-size: 30px;
-  text-decoration: none;
+.home-emoji {
+  font-size: 40px;
 }
 
 footer {
@@ -144,14 +143,17 @@ a:hover {
 @media (max-width: 768px) {
   h1 {
     font-size: 24px;
+    text-align: center;
   }
 
   h2 {
     font-size: 20px;
+    text-align: center;
   }
 
   h3 {
     font-size: 18px;
+    text-align: center;
   }
 
   p {
