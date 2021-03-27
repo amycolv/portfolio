@@ -46,6 +46,12 @@ img {
   text-decoration: none;
 }
 
+.contact-link {
+  font-size: 30px;
+  color: #213acb;
+  text-decoration: none;
+}
+
 a:hover {
   text-decoration: underline;
   color: #ed5b76;
