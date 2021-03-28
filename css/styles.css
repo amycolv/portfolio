@@ -1,5 +1,6 @@
 :root {
   --branding-color: #ed5b76;
+  --secondary-color: #1b36ca;
   --heading-font-family: "Noto Sans KR", sans-serif;
   --default-font-family: "Roboto", serif;
 }
@@ -42,6 +43,45 @@ p {
   margin: 0px;
 }
 
+footer .email-link a {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  text-align: center;
+}
+
+footer .email-link:hover a {
+  color: var(--branding-color);
+}
+
+footer .social-links a {
+  margin: 10px 20px;
+  padding: 8px 12px;
+  border-radius: 50%;
+  font-size: 15px;
+  color: var(--branding-color);
+  background: #f7dee3;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  background: var(--branding-color);
+  color: white;
+}
+
+footer .contact-box {
+  border: 1px black;
+}
+
+footer .contact-box-link a {
+  text-decoration: none;
+  color: black;
+}
+
+footer .contact-box-link a:hover {
+  color: var(--branding-color);
+}
+
 .caption p {
   font-size: 16px;
   margin: 0px;
@@ -56,20 +96,20 @@ img {
   display: block;
 }
 
-.project-link {
-  color: var(--branding-color);
+.project-link,
+.contact-link {
   text-decoration: none;
+  font-weight: bold;
 }
 
 .contact-link {
   font-size: 30px;
-  color: var(--branding-color);
   text-decoration: none;
+  font-weight: bold;
 }
 
 a:hover {
-  text-decoration: underline;
-  color: #1b36ca;
+  color: var(--branding-color);
 }
 
 .homepage-hero {
@@ -87,7 +127,7 @@ a:hover {
 .background-pink {
   background: linear-gradient(
     83deg,
-    rgba(255, 255, 255, 1) 20%,
+    rgba(255, 255, 255, 1) 40%,
     rgba(237, 91, 119, 1) 75%
   );
 }
